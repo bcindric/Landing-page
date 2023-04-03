@@ -14,10 +14,15 @@ The landing page includes the following sections:
 The landing page is built with the following technologies:
 
 +HTML
+
 +CSS
+
 +Google Fonts
+
 +Favicon
+
 +Usage
+
 +To view the landing page, simply open the index.html file in your web browser. You can also visit the live site by clicking here.
 
 <h2>Credits</h2>
