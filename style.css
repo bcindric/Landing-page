@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* HERO AND MAIN */
+
+.wrapper {
+  background-color: #1f2937;
+}
+
+.container {
+  /* 1140px */
+  max-width: 140rem;
+  padding: 2.4rem 3.2rem;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4.8rem;
+}
+
+.logo {
+  height: 9.6rem;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 3.2rem;
+}
+
+.link-list-item:link,
+.link-list-item:visited {
+  color: #fff;
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+
+.link-list-item:hover,
+.link-list-item:active {
+  color: #d4d4d4;
+  text-decoration: none;
+}
+
+.section-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4.8rem;
+  padding-bottom: 9.6rem;
+  margin-bottom: 4.8rem;
+}
+
+.section-hero-text {
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: #f9faf8;
+  margin-bottom: 1.6rem;
+  line-height: 1.4;
+}
+
+.section-hero-paragraph {
+  font-size: 1.8rem;
+  color: #e5e7eb;
+  margin-bottom: 1.6rem;
+  line-height: 1.8;
+}
+
+.hero-btn {
+  color: #fff;
+  font-size: 3.2rem;
+  padding: 0.8rem 3.2rem;
+  background-color: #3882f6;
+  font-size: 2.4rem;
+  border: none;
+  border-radius: 1.1rem;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  color: #3882f6;
+  background-color: #fff;
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 1.1rem;
+
+  flex-grow: 1;
+}
+
+.hero-one {
+  flex-shrink: 2;
+}
+
+/* INFROMATION SECTION */
+.section-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8.6rem;
+}
+
+.info-text {
+  color: #1f2937;
+  font-size: 3.6rem;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.2rem;
+}
+
+.image-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+
+  height: 30rem; /* Set a fixed height */
+}
+
+.image-box img {
+  max-width: 90%;
+  max-height: 100%;
+  border: 2px solid #1f2937;
+  border-radius: 11px;
+  transition: all 0.4s;
+}
+
+.image-box img:hover {
+  transform: scale(1.1);
+}
+
+.image-text {
+  color: #1f2937;
+  font-size: 1.8rem;
+}
+
+/* QUOTE SECTION */
+.section-quote {
+  background-color: #e5e7eb;
+  padding: 9.6rem;
+  margin-bottom: 8.6rem;
+}
+
+.quoter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote {
+  font-size: 3.6rem;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.quote-author {
+  font-size: 2.4rem;
+  font-weight: 700;
+  align-self: flex-end;
+}
+
+/* CALL TO ACTION SECTION */
+.cta-section {
+  margin-bottom: 9.6rem;
+}
+
+.cta-container {
+  background-color: #3882f6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4.8rem;
+  border-radius: 11px;
+}
+
+.text-primary {
+  color: #fff;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.text-secondary {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.btn-secondary {
+  color: #fff;
+  font-size: 3.2rem;
+  padding: 0.8rem 3.2rem;
+  background-color: #3882f6;
+  font-size: 2.4rem;
+  border: 3px solid #fff;
+  border-radius: 11px;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background-color: #fff;
+  border: 3px solid #0d2f66;
+  color: #3882f6;
+}
+
+/* FOOTER */
+.footer {
+  padding: 1.2rem;
+  background-color: #1f2937;
+}
+
+.footer-text {
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+}
